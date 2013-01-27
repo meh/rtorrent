@@ -91,7 +91,7 @@ Root::init(Control* c) {
   rootFrame->frame(3)->initialize_window(m_windowInput);
   rootFrame->frame(4)->initialize_window(m_windowStatusbar);
 
-  m_windowTitle->set_active(true);
+//  m_windowTitle->set_active(true);
   m_windowStatusbar->set_active(true);
   m_windowStatusbar->set_bottom(true);
 
